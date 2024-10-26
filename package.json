@@ -1,0 +1,39 @@
+{
+  "name": "flashcard-api",
+  "version": "1.0.0",
+  "description": "This is a web api that can be used at scale to manage flashcards.",
+  "bugs": {
+    "url": "https://github.com/Connor-Bernard/flashcards-api/issues"
+  },
+  "license": "SEE LICENSE IN /LICENSE",
+  "author": {
+    "name": "Connor Bernard",
+    "email": "connorbernard@berkeley.edu",
+    "url": "https://connorbernard.dev"
+  },
+  "main": "server.js",
+  "repository":  "github:Connor-Bernard/flashcards-api",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "express-rate-limit": "^7.4.1",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
